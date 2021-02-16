@@ -6,6 +6,11 @@ body{
     align-items: center;
 }
 
+h1 {
+    color: greenyellow;
+    font-size: 48px;
+}
+
 .buttonRow {
     display: flex;
     justify-content: space-evenly;
@@ -35,6 +40,7 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .calculatorButton {
@@ -58,7 +64,7 @@ body{
     margin: 0 auto;
     border-radius: 5px;
     text-align: right;
-    
+    overflow: hidden;
 }
 
 #displayDigits {
@@ -68,15 +74,19 @@ body{
     margin-bottom: 10px;
 }
 
-#clearRow {
+#clearAndDeleteRow {
     grid-area: row5;
     grid-column: 1 / -1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #clearButton {
-    width: 95%;
+    width: 45%;
+}
+
+#deleteButton {
+    width: 45%;
 }
 
 #buttonRow1 {
