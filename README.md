@@ -1,5 +1,5 @@
 # Calculator
-A simple calculator web app
+A calculator web application
 
 # Live Demo
 https://dunnand2.github.io/Calculator/
